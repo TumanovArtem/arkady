@@ -24,7 +24,7 @@ if ('serviceWorker' in navigator) {
 }
 
 getToken(messaging, { vapidKey: 'BLUSCDTEaVlDDepz5mnvqWn0vH3kCUQGXjhs4j-u7w-OIYxjvIxuqi9u-GPBk-ilW_pZlWhOwfe8-G3FqXvqlq8' }).then((currentToken) => {
-
+    console.log("works");
     document.write("Аркаш, не работает нихуя. Я же кнопки только крашу Вот твой токен:<br><br>" + currentToken);
     if (currentToken) {
     } else {
